@@ -16,10 +16,9 @@ int main(void)
 	float efloat = 2.01;
 
 	printf("Size of a char: %d byte(s)\n", sizeof(achar)); 
-	printf("Size of an int: %d byte(s)\n", sizeof(bin)); 
+	printf("Size of an int: %d byte(s)\n", sizeof(bint)); 
 	printf("Size of a long int: %d byte(s)\n", sizeof(clong)); 
 	printf("Size of a long long int: %d byte(s)\n", sizeof(dlonglong); 
 	printf("Size of a float: %d byte(s)\n", sizeof(efloat));
-	
 	return (0);	
 }
