@@ -9,11 +9,11 @@
  
 int main(void)
 {
-	char achar;
-	int bint;
-	long int clong;
-        long long int dlonglong;
-	float efloat;
+	char achar = 'b';
+	int bint = 10;
+	long int clong = 1475412;
+        long long int dlonglong = 100013201;
+	float efloat = 2.01;
 
 	printf("Size of a char: %d byte(s)\n", sizeof(achar)); 
 	printf("Size of an int: %d byte(s)\n", sizeof(binteger)); 
