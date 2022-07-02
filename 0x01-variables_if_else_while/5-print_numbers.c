@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	int i;
+	unsigned int i;
 
 	i = 0;
 
