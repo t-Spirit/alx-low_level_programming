@@ -11,9 +11,7 @@
 
 int main(void)
 {
-	unsigned int i;
-
-	i = 0;
+	int i = 0;
 
 	while (i < 10)
 	{
