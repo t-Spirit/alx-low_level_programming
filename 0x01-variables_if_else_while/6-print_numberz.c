@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	char i = '0';
+	long int i = 0;
 
 	while (i < 10)
 	{
