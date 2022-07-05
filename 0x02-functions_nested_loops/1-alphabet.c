@@ -4,12 +4,12 @@
 /* more headers goes there */
 
 /**
- * main - Print alphabets
+ * main - Print_alphabet
  *
  * Return: Always 0 (Success)
  */
 
-/* betty style doc for funciton main goes there */
+/* betty style doc for function main goes there */
 
 void print_alphabet(void)
 {
@@ -20,10 +20,4 @@ void print_alphabet(void)
 		putchar(i);
 	}
 	putchar('\n');
-}
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
