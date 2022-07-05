@@ -1,26 +1,22 @@
 #include <stdio.h>
 #include "main.h"
 
-/* more headers goes there */
-
 /**
- * main - Entry point
+ * main - Print something
  *
- * Return: Always 0 (Success)
- */
-
-/* betty style doc for function main goes there */
-
+ *
+ * Return: returns 0
+ **/
 int main(void)
 {
-	char a[8] = "_putchar";
-	int i;
+	char c[8] = "_putchar";
+	int i = 0;
 
-	for (i = 0; i <= 7, i++)
+	while (i < 8)
 	{
-		putchar(a[i]);
+		putchar(c[i]);
+		i++;
 	}
 	putchar('\n');
-
 	return (0);
 }
