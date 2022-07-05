@@ -1,28 +1,19 @@
 #include "main.h"
 
-/* more headers goes there */
-
 /**
- * print_alphabet - Print_alphabet
- *
- * Return: Always 0 (Success)
- */
-
-/* betty style doc for function main goes there */
+* print_alphabet - Print the alphabet in lowercase.
+*
+* Return: void.
+*/
 
 void print_alphabet(void)
 {
-	char i;
+	int i = 97;
 
-	for (i = 'a'; i <= 'z'; i++)
+	while (i < 123)
 	{
 		putchar(i);
+		i++;
 	}
 	putchar('\n');
-}
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
