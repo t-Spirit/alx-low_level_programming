@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 
 /* more headers goes there */
 
 /**
- * main - Print_alphabet
+ * print_alphabet - Print_alphabet
  *
  * Return: Always 0 (Success)
  */
@@ -20,4 +19,10 @@ void print_alphabet(void)
 		putchar(i);
 	}
 	putchar('\n');
+}
+
+int main(void)
+{
+	print_alphabet();
+	return (0);
 }
