@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /* more headers goes there */
 
 /**
