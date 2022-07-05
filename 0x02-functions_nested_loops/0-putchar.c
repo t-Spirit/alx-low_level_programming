@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 #include "main.h"
 /* more headers goes there */
 
@@ -12,10 +13,14 @@
 
 int main(void)
 {
-	char a = '_putchar';
+	char a[8] = '_putchar';
+	int i;
 
-	putchar(a);
-	putchar('\n')
+	for (i = 0; i <= 7, i++)
+	{
+		putchar(a[i]);
+	}
+	putchar('\n');
 
 	return (0);
 }
