@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <unistd.h>
 #include "main.h"
+
 /* more headers goes there */
 
 /**
@@ -13,7 +13,7 @@
 
 int main(void)
 {
-	char a[8] = '_putchar';
+	char a[8] = "_putchar";
 	int i;
 
 	for (i = 0; i <= 7, i++)
