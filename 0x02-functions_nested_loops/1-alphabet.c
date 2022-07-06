@@ -1,12 +1,8 @@
 #include "main.h"
 
 /**
- * main - print_alphabet
- *
- * Return: Always 0 (Success)
+ * print_alphabet - prints lowercase letters
  */
-
-/* betty style doc for function main goes there */
 
 void print_alphabet(void)
 {
